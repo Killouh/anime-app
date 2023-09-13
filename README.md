@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Lib :
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+CRA / Axios / react router
 
 ## Available Scripts
 
