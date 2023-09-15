@@ -1,4 +1,61 @@
-.home{
-    display: flex;
-    flex-direction: column;
+.home {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.anime-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start; /* Aligner les éléments en haut du conteneur */
+}
+
+.anime-content {
+  width: 20%;
+  height: auto;
+}
+
+.home-thumbnail-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.home-thumbnail {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  transition: transform 0.3s ease-in-out; /* Ajoute une transition douce pour l'effet */
+}
+
+.thumbnail-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 99%;
+  background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent noir */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0; /* Définissez l'opacité à 0 par défaut */
+  transition: opacity 0.3s ease-in-out; /* Ajoutez une transition pour l'opacité */
+  border-radius: 20px;
+}
+
+.home-thumbnail-container:hover .thumbnail-overlay {
+  opacity: 1; /* Affichez l'overlay au passage de la souris */
+}
+
+.thumbnail-title {
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
 }
