@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import mockData from "../../data/mockdata.json";
+import { Link } from 'react-router-dom';
 
 import "./home.css";
 
@@ -20,12 +21,13 @@ export default function Home() {
     return randomNumber;
   }
 
-  // Fonction pour générer un élément de contenu anime
-  const generateAnimeContent = () => {
-    if (animeData) {
-      const randomKey = generateRandomKey(1, 10000, usedKeys); // Génère une clé unique
-      return (
-        <div key={randomKey} className="anime-content">
+// Fonction pour générer un élément de contenu anime
+const generateAnimeContent = (index) => {
+  if (animeData) {
+    const randomKey = index === 0 ? 1 : generateRandomKey(2, 10000, usedKeys);
+    return (
+      <div key={randomKey} className="anime-content">
+        <Link to={`/anime/${randomKey}`}>
           <div className="home-thumbnail-container">
             <img
               className="home-thumbnail"
@@ -36,16 +38,17 @@ export default function Home() {
               <div className="thumbnail-title">{animeData.title}</div>
             </div>
           </div>
-        </div>
-      );
-    }
-    return null; // Retourne null si animeData est null
-  };
+        </Link>
+      </div>
+    );
+  }
+  return null; // Retourne null si animeData est null
+};
 
-  // Générez 15 éléments de contenu anime avec la même donnée mockée
-  const animeContents = Array.from({ length: 17 }, () =>
-    generateAnimeContent()
-  );
+// Générez 15 éléments de contenu anime avec la même donnée mockée
+const animeContents = Array.from({ length: 17 }, (v, index) =>
+  generateAnimeContent(index)
+);
 
   return (
     <div className="home">

@@ -9,6 +9,7 @@ import Home from "./views/home/home";
 import Trending from "./views/trending/trending";
 import Watchlist from "./views/watchlist/watchlist";
 import Settings from "./views/settings/settings";
+import Itempage from './views/itempage/itempage';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/trending" element={<Trending />} />
+            <Route path="/anime/:id" element={<Itempage />} />
             <Route path="/watchlist" element={<Watchlist />} />
             <Route path="/settings" element={<Settings />} />
           </Routes>
