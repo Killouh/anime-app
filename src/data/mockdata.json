@@ -31,5 +31,236 @@
     "statut": "En cours",
     "synopsis": "L'histoire suit principalement l'équipage de Chapeau de paille, mené par son capitaine Monkey D. Luffy, un jeune homme ayant mangé, enfant, sans le savoir le fruit du Gum Gum qui lui permet d'étirer ses membres, et dont le rêve est de devenir le Roi des pirates.",
     "duration": 24
+  },
+  {
+    "id": 1,
+    "title": "One Piece",
+    "description": "Kaizoku Naru",
+    "year": 2023,
+    "genre": "Shonen",
+    "director": "Eichiro Oda",
+    "image": "../assets/vop.png",
+    "paysage": "../assets/paysage.png",
+    "cast": [
+      {
+        "name": "Tanaka Mayumi",
+        "photo": "../assets/actor1.png"
+      },
+      {
+        "name": "Nakai Kazuya",
+        "photo": "../assets/actor2.png"
+      },
+      {
+        "name": "Okamura Akemi",
+        "photo": "../assets/actor3.png"
+      }
+    ],
+    "genreDetails": {
+      "subgenre": "Aventure",
+      "mainGenre": "Action"
+    },
+    "rating": 9,
+    "release": "20-10-1990",
+    "statut": "En cours",
+    "synopsis": "L'histoire suit principalement l'équipage de Chapeau de paille, mené par son capitaine Monkey D. Luffy, un jeune homme ayant mangé, enfant, sans le savoir le fruit du Gum Gum qui lui permet d'étirer ses membres, et dont le rêve est de devenir le Roi des pirates.",
+    "duration": 24
+  },
+  {
+    "id": 1,
+    "title": "One Piece",
+    "description": "Kaizoku Naru",
+    "year": 2023,
+    "genre": "Shonen",
+    "director": "Eichiro Oda",
+    "image": "../assets/vop.png",
+    "paysage": "../assets/paysage.png",
+    "cast": [
+      {
+        "name": "Tanaka Mayumi",
+        "photo": "../assets/actor1.png"
+      },
+      {
+        "name": "Nakai Kazuya",
+        "photo": "../assets/actor2.png"
+      },
+      {
+        "name": "Okamura Akemi",
+        "photo": "../assets/actor3.png"
+      }
+    ],
+    "genreDetails": {
+      "subgenre": "Aventure",
+      "mainGenre": "Action"
+    },
+    "rating": 9,
+    "release": "20-10-1990",
+    "statut": "En cours",
+    "synopsis": "L'histoire suit principalement l'équipage de Chapeau de paille, mené par son capitaine Monkey D. Luffy, un jeune homme ayant mangé, enfant, sans le savoir le fruit du Gum Gum qui lui permet d'étirer ses membres, et dont le rêve est de devenir le Roi des pirates.",
+    "duration": 24
+  },
+  {
+    "id": 1,
+    "title": "One Piece",
+    "description": "Kaizoku Naru",
+    "year": 2023,
+    "genre": "Shonen",
+    "director": "Eichiro Oda",
+    "image": "../assets/vop.png",
+    "paysage": "../assets/paysage.png",
+    "cast": [
+      {
+        "name": "Tanaka Mayumi",
+        "photo": "../assets/actor1.png"
+      },
+      {
+        "name": "Nakai Kazuya",
+        "photo": "../assets/actor2.png"
+      },
+      {
+        "name": "Okamura Akemi",
+        "photo": "../assets/actor3.png"
+      }
+    ],
+    "genreDetails": {
+      "subgenre": "Aventure",
+      "mainGenre": "Action"
+    },
+    "rating": 9,
+    "release": "20-10-1990",
+    "statut": "En cours",
+    "synopsis": "L'histoire suit principalement l'équipage de Chapeau de paille, mené par son capitaine Monkey D. Luffy, un jeune homme ayant mangé, enfant, sans le savoir le fruit du Gum Gum qui lui permet d'étirer ses membres, et dont le rêve est de devenir le Roi des pirates.",
+    "duration": 24
+  },
+  {
+    "id": 1,
+    "title": "One Piece",
+    "description": "Kaizoku Naru",
+    "year": 2023,
+    "genre": "Shonen",
+    "director": "Eichiro Oda",
+    "image": "../assets/vop.png",
+    "paysage": "../assets/paysage.png",
+    "cast": [
+      {
+        "name": "Tanaka Mayumi",
+        "photo": "../assets/actor1.png"
+      },
+      {
+        "name": "Nakai Kazuya",
+        "photo": "../assets/actor2.png"
+      },
+      {
+        "name": "Okamura Akemi",
+        "photo": "../assets/actor3.png"
+      }
+    ],
+    "genreDetails": {
+      "subgenre": "Aventure",
+      "mainGenre": "Action"
+    },
+    "rating": 9,
+    "release": "20-10-1990",
+    "statut": "En cours",
+    "synopsis": "L'histoire suit principalement l'équipage de Chapeau de paille, mené par son capitaine Monkey D. Luffy, un jeune homme ayant mangé, enfant, sans le savoir le fruit du Gum Gum qui lui permet d'étirer ses membres, et dont le rêve est de devenir le Roi des pirates.",
+    "duration": 24
+  },
+  {
+    "id": 1,
+    "title": "One Piece",
+    "description": "Kaizoku Naru",
+    "year": 2023,
+    "genre": "Shonen",
+    "director": "Eichiro Oda",
+    "image": "../assets/vop.png",
+    "paysage": "../assets/paysage.png",
+    "cast": [
+      {
+        "name": "Tanaka Mayumi",
+        "photo": "../assets/actor1.png"
+      },
+      {
+        "name": "Nakai Kazuya",
+        "photo": "../assets/actor2.png"
+      },
+      {
+        "name": "Okamura Akemi",
+        "photo": "../assets/actor3.png"
+      }
+    ],
+    "genreDetails": {
+      "subgenre": "Aventure",
+      "mainGenre": "Action"
+    },
+    "rating": 9,
+    "release": "20-10-1990",
+    "statut": "En cours",
+    "synopsis": "L'histoire suit principalement l'équipage de Chapeau de paille, mené par son capitaine Monkey D. Luffy, un jeune homme ayant mangé, enfant, sans le savoir le fruit du Gum Gum qui lui permet d'étirer ses membres, et dont le rêve est de devenir le Roi des pirates.",
+    "duration": 24
+  },
+  {
+    "id": 1,
+    "title": "One Piece",
+    "description": "Kaizoku Naru",
+    "year": 2023,
+    "genre": "Shonen",
+    "director": "Eichiro Oda",
+    "image": "../assets/vop.png",
+    "paysage": "../assets/paysage.png",
+    "cast": [
+      {
+        "name": "Tanaka Mayumi",
+        "photo": "../assets/actor1.png"
+      },
+      {
+        "name": "Nakai Kazuya",
+        "photo": "../assets/actor2.png"
+      },
+      {
+        "name": "Okamura Akemi",
+        "photo": "../assets/actor3.png"
+      }
+    ],
+    "genreDetails": {
+      "subgenre": "Aventure",
+      "mainGenre": "Action"
+    },
+    "rating": 9,
+    "release": "20-10-1990",
+    "statut": "En cours",
+    "synopsis": "L'histoire suit principalement l'équipage de Chapeau de paille, mené par son capitaine Monkey D. Luffy, un jeune homme ayant mangé, enfant, sans le savoir le fruit du Gum Gum qui lui permet d'étirer ses membres, et dont le rêve est de devenir le Roi des pirates.",
+    "duration": 24
+  },
+  {
+    "id": 1,
+    "title": "One Piece",
+    "description": "Kaizoku Naru",
+    "year": 2023,
+    "genre": "Shonen",
+    "director": "Eichiro Oda",
+    "image": "../assets/vop.png",
+    "paysage": "../assets/paysage.png",
+    "cast": [
+      {
+        "name": "Tanaka Mayumi",
+        "photo": "../assets/actor1.png"
+      },
+      {
+        "name": "Nakai Kazuya",
+        "photo": "../assets/actor2.png"
+      },
+      {
+        "name": "Okamura Akemi",
+        "photo": "../assets/actor3.png"
+      }
+    ],
+    "genreDetails": {
+      "subgenre": "Aventure",
+      "mainGenre": "Action"
+    },
+    "rating": 9,
+    "release": "20-10-1990",
+    "statut": "En cours",
+    "synopsis": "L'histoire suit principalement l'équipage de Chapeau de paille, mené par son capitaine Monkey D. Luffy, un jeune homme ayant mangé, enfant, sans le savoir le fruit du Gum Gum qui lui permet d'étirer ses membres, et dont le rêve est de devenir le Roi des pirates.",
+    "duration": 24
   }
 ]

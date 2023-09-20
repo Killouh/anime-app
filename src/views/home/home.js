@@ -22,38 +22,38 @@ export default function Home() {
   }
 
 // Fonction pour générer un élément de contenu anime
-const generateAnimeContent = (index) => {
-  if (animeData) {
-    const randomKey = index === 0 ? 1 : generateRandomKey(2, 10000, usedKeys);
-    return (
-      <div key={randomKey} className="anime-content">
-        <Link to={`/anime/${randomKey}`}>
-          <div className="home-thumbnail-container">
-            <img
-              className="home-thumbnail"
-              src={require(`../../assets/vop.png`)}
-              alt={animeData.title}
-            />
-            <div className="thumbnail-overlay">
-              <div className="thumbnail-title">{animeData.title}</div>
-            </div>
-          </div>
-        </Link>
-      </div>
-    );
-  }
-  return null; // Retourne null si animeData est null
-};
-
-// Générez 15 éléments de contenu anime avec la même donnée mockée
-const animeContents = Array.from({ length: 17 }, (v, index) =>
-  generateAnimeContent(index)
-);
-
+const generateAnimeContent = (data, index) => {
+  const randomKey = generateRandomKey(2, 10000, usedKeys);
   return (
-    <div className="home">
-      <h1 className="home-title">Découvrir des Animés</h1>
-      <div className="anime-container">{animeContents}</div>
+    <div key={randomKey} className="anime-content">
+      <Link to={`/anime/${data.id}`}>
+        <div className="home-thumbnail-container">
+          <img
+            className="home-thumbnail"
+            src={require(`../../assets/vop.png`)}
+            alt={data.title}
+          />
+          <div className="thumbnail-overlay">
+            <div className="thumbnail-title">{data.title}</div>
+          </div>
+        </div>
+      </Link>
     </div>
   );
+};
+
+
+
+return (
+  <div className="home">
+    <h1 className="home-title">Découvrir des Animés</h1>
+    <div className="anime-container">
+      {animeData
+        ? animeData.map((data, index) =>
+            generateAnimeContent(data, index)
+          )
+        : null}
+    </div>
+  </div>
+);
 }
